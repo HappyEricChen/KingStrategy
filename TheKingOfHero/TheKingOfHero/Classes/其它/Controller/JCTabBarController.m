@@ -40,7 +40,7 @@
     //添加自控制器
     [self setUpChildVc:[[HeroStrategyViewController alloc]init] title:@"攻略" image:@"home-tabbar-news" selectedImage:@"home-tabbar-news-visited"];
     [self setUpChildVc:[[ViewController alloc]init] title:@"装备" image:@"home-tabbar-yxzb" selectedImage:@"home-tabbar-yxzb-visited"];
-    [self setUpChildVc:[[ViewController alloc]init] title:@"工具" image:@"home-tabbar-news" selectedImage:@"home-tabbar-news-visited"];
+    [self setUpChildVc:[[ViewController alloc]init] title:@"工具" image:@"home-tabbar-tools" selectedImage:@"home-tabbar-tools-visited"];
     [self setUpChildVc:[[ViewController alloc]init] title:@"更多" image:@"home-tabbar-discover" selectedImage:@"home-tabbar-discover-visited"];
     
     //替换系统的tabbar
