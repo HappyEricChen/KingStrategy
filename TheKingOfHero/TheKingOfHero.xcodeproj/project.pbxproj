@@ -1,0 +1,832 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BFC1D1906E44FF336DE587F /* libPods-TheKingOfHero.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD886C1599158F6BF96AB502 /* libPods-TheKingOfHero.a */; };
+		98CFAA031E8EA8D800D1B204 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CFAA021E8EA8D800D1B204 /* main.m */; };
+		98CFAA0C1E8EA8D800D1B204 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98CFAA0A1E8EA8D800D1B204 /* Main.storyboard */; };
+		98CFAA0E1E8EA8D800D1B204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98CFAA0D1E8EA8D800D1B204 /* Assets.xcassets */; };
+		98CFAA111E8EA8D800D1B204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98CFAA0F1E8EA8D800D1B204 /* LaunchScreen.storyboard */; };
+		98CFAA1C1E8EA8D800D1B204 /* TheKingOfHeroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CFAA1B1E8EA8D800D1B204 /* TheKingOfHeroTests.m */; };
+		98CFAA271E8EA8D800D1B204 /* TheKingOfHeroUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CFAA261E8EA8D800D1B204 /* TheKingOfHeroUITests.m */; };
+		98CFAA481E8EAA7D00D1B204 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CFAA371E8EAA7D00D1B204 /* AppDelegate.m */; };
+		98CFAA5D1E8EAAFC00D1B204 /* JCConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CFAA4B1E8EAAFC00D1B204 /* JCConst.m */; };
+		98CFAA5E1E8EAAFC00D1B204 /* NSDate+JCDateExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CFAA4D1E8EAAFC00D1B204 /* NSDate+JCDateExtension.m */; };
+		98CFAA5F1E8EAAFC00D1B204 /* UIBarButtonItem+JCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CFAA4F1E8EAAFC00D1B204 /* UIBarButtonItem+JCExtension.m */; };
+		98CFAA601E8EAAFC00D1B204 /* UIImage+JCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CFAA511E8EAAFC00D1B204 /* UIImage+JCExtension.m */; };
+		98CFAA611E8EAAFC00D1B204 /* UIImageView+JCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CFAA531E8EAAFC00D1B204 /* UIImageView+JCExtension.m */; };
+		98CFAA621E8EAAFC00D1B204 /* UIView+JCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CFAA551E8EAAFC00D1B204 /* UIView+JCExtension.m */; };
+		98CFAA631E8EAAFC00D1B204 /* JCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CFAA581E8EAAFC00D1B204 /* JCNavigationController.m */; };
+		98CFAA641E8EAAFC00D1B204 /* JCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CFAA5A1E8EAAFC00D1B204 /* JCTabBarController.m */; };
+		98CFAA651E8EAAFC00D1B204 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CFAA5C1E8EAAFC00D1B204 /* ViewController.m */; };
+		98E9A65B1E9514240066E15B /* HeroStrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E9A65A1E9514240066E15B /* HeroStrategyViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98CFAA181E8EA8D800D1B204 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98CFA9F61E8EA8D800D1B204 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98CFA9FD1E8EA8D800D1B204;
+			remoteInfo = TheKingOfHero;
+		};
+		98CFAA231E8EA8D800D1B204 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98CFA9F61E8EA8D800D1B204 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98CFA9FD1E8EA8D800D1B204;
+			remoteInfo = TheKingOfHero;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0114CF408297BC19F344B534 /* Pods-TheKingOfHero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheKingOfHero.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheKingOfHero/Pods-TheKingOfHero.release.xcconfig"; sourceTree = "<group>"; };
+		98CFA9FE1E8EA8D800D1B204 /* TheKingOfHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheKingOfHero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98CFAA021E8EA8D800D1B204 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98CFAA0B1E8EA8D800D1B204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98CFAA0D1E8EA8D800D1B204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98CFAA101E8EA8D800D1B204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98CFAA121E8EA8D800D1B204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98CFAA171E8EA8D800D1B204 /* TheKingOfHeroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheKingOfHeroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98CFAA1B1E8EA8D800D1B204 /* TheKingOfHeroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheKingOfHeroTests.m; sourceTree = "<group>"; };
+		98CFAA1D1E8EA8D800D1B204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98CFAA221E8EA8D800D1B204 /* TheKingOfHeroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheKingOfHeroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98CFAA261E8EA8D800D1B204 /* TheKingOfHeroUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheKingOfHeroUITests.m; sourceTree = "<group>"; };
+		98CFAA281E8EA8D800D1B204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98CFAA361E8EAA7D00D1B204 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		98CFAA371E8EAA7D00D1B204 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		98CFAA4A1E8EAAFC00D1B204 /* JCConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCConst.h; sourceTree = "<group>"; };
+		98CFAA4B1E8EAAFC00D1B204 /* JCConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCConst.m; sourceTree = "<group>"; };
+		98CFAA4C1E8EAAFC00D1B204 /* NSDate+JCDateExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JCDateExtension.h"; sourceTree = "<group>"; };
+		98CFAA4D1E8EAAFC00D1B204 /* NSDate+JCDateExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JCDateExtension.m"; sourceTree = "<group>"; };
+		98CFAA4E1E8EAAFC00D1B204 /* UIBarButtonItem+JCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+JCExtension.h"; sourceTree = "<group>"; };
+		98CFAA4F1E8EAAFC00D1B204 /* UIBarButtonItem+JCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+JCExtension.m"; sourceTree = "<group>"; };
+		98CFAA501E8EAAFC00D1B204 /* UIImage+JCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JCExtension.h"; sourceTree = "<group>"; };
+		98CFAA511E8EAAFC00D1B204 /* UIImage+JCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JCExtension.m"; sourceTree = "<group>"; };
+		98CFAA521E8EAAFC00D1B204 /* UIImageView+JCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JCExtension.h"; sourceTree = "<group>"; };
+		98CFAA531E8EAAFC00D1B204 /* UIImageView+JCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+JCExtension.m"; sourceTree = "<group>"; };
+		98CFAA541E8EAAFC00D1B204 /* UIView+JCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JCExtension.h"; sourceTree = "<group>"; };
+		98CFAA551E8EAAFC00D1B204 /* UIView+JCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JCExtension.m"; sourceTree = "<group>"; };
+		98CFAA571E8EAAFC00D1B204 /* JCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCNavigationController.h; sourceTree = "<group>"; };
+		98CFAA581E8EAAFC00D1B204 /* JCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCNavigationController.m; sourceTree = "<group>"; };
+		98CFAA591E8EAAFC00D1B204 /* JCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCTabBarController.h; sourceTree = "<group>"; };
+		98CFAA5A1E8EAAFC00D1B204 /* JCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCTabBarController.m; sourceTree = "<group>"; };
+		98CFAA5B1E8EAAFC00D1B204 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		98CFAA5C1E8EAAFC00D1B204 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		98CFAA661E8EABE100D1B204 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		98E9A6591E9514240066E15B /* HeroStrategyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroStrategyViewController.h; sourceTree = "<group>"; };
+		98E9A65A1E9514240066E15B /* HeroStrategyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroStrategyViewController.m; sourceTree = "<group>"; };
+		BCD77E5E6F4FA388F94AEA33 /* Pods-TheKingOfHero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheKingOfHero.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheKingOfHero/Pods-TheKingOfHero.debug.xcconfig"; sourceTree = "<group>"; };
+		FD886C1599158F6BF96AB502 /* libPods-TheKingOfHero.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TheKingOfHero.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98CFA9FB1E8EA8D800D1B204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BFC1D1906E44FF336DE587F /* libPods-TheKingOfHero.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CFAA141E8EA8D800D1B204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CFAA1F1E8EA8D800D1B204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02E91536BF20D29D61A86A62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD886C1599158F6BF96AB502 /* libPods-TheKingOfHero.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98CFA9F51E8EA8D800D1B204 = {
+			isa = PBXGroup;
+			children = (
+				98CFAA001E8EA8D800D1B204 /* TheKingOfHero */,
+				98CFAA1A1E8EA8D800D1B204 /* TheKingOfHeroTests */,
+				98CFAA251E8EA8D800D1B204 /* TheKingOfHeroUITests */,
+				98CFA9FF1E8EA8D800D1B204 /* Products */,
+				D1EC665C5D59F78B244F4FFC /* Pods */,
+				02E91536BF20D29D61A86A62 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		98CFA9FF1E8EA8D800D1B204 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98CFA9FE1E8EA8D800D1B204 /* TheKingOfHero.app */,
+				98CFAA171E8EA8D800D1B204 /* TheKingOfHeroTests.xctest */,
+				98CFAA221E8EA8D800D1B204 /* TheKingOfHeroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98CFAA001E8EA8D800D1B204 /* TheKingOfHero */ = {
+			isa = PBXGroup;
+			children = (
+				98CFAA341E8EAA7D00D1B204 /* Classes */,
+				98CFAA0A1E8EA8D800D1B204 /* Main.storyboard */,
+				98CFAA0D1E8EA8D800D1B204 /* Assets.xcassets */,
+				98CFAA0F1E8EA8D800D1B204 /* LaunchScreen.storyboard */,
+				98CFAA121E8EA8D800D1B204 /* Info.plist */,
+				98CFAA011E8EA8D800D1B204 /* Supporting Files */,
+			);
+			path = TheKingOfHero;
+			sourceTree = "<group>";
+		};
+		98CFAA011E8EA8D800D1B204 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98CFAA021E8EA8D800D1B204 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98CFAA1A1E8EA8D800D1B204 /* TheKingOfHeroTests */ = {
+			isa = PBXGroup;
+			children = (
+				98CFAA1B1E8EA8D800D1B204 /* TheKingOfHeroTests.m */,
+				98CFAA1D1E8EA8D800D1B204 /* Info.plist */,
+			);
+			path = TheKingOfHeroTests;
+			sourceTree = "<group>";
+		};
+		98CFAA251E8EA8D800D1B204 /* TheKingOfHeroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98CFAA261E8EA8D800D1B204 /* TheKingOfHeroUITests.m */,
+				98CFAA281E8EA8D800D1B204 /* Info.plist */,
+			);
+			path = TheKingOfHeroUITests;
+			sourceTree = "<group>";
+		};
+		98CFAA341E8EAA7D00D1B204 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				98CFAA351E8EAA7D00D1B204 /* 其它 */,
+				98CFAA381E8EAA7D00D1B204 /* 工具 */,
+				98CFAA3C1E8EAA7D00D1B204 /* 攻略 */,
+				98CFAA401E8EAA7D00D1B204 /* 更多 */,
+				98CFAA441E8EAA7D00D1B204 /* 装备 */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		98CFAA351E8EAA7D00D1B204 /* 其它 */ = {
+			isa = PBXGroup;
+			children = (
+				98CFAA491E8EAAFC00D1B204 /* Category */,
+				98CFAA561E8EAAFC00D1B204 /* Controller */,
+				98CFAA361E8EAA7D00D1B204 /* AppDelegate.h */,
+				98CFAA371E8EAA7D00D1B204 /* AppDelegate.m */,
+				98CFAA661E8EABE100D1B204 /* PrefixHeader.pch */,
+			);
+			path = "其它";
+			sourceTree = "<group>";
+		};
+		98CFAA381E8EAA7D00D1B204 /* 工具 */ = {
+			isa = PBXGroup;
+			children = (
+				98CFAA391E8EAA7D00D1B204 /* Controller */,
+				98CFAA3A1E8EAA7D00D1B204 /* Model */,
+				98CFAA3B1E8EAA7D00D1B204 /* View */,
+			);
+			path = "工具";
+			sourceTree = "<group>";
+		};
+		98CFAA391E8EAA7D00D1B204 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		98CFAA3A1E8EAA7D00D1B204 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		98CFAA3B1E8EAA7D00D1B204 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		98CFAA3C1E8EAA7D00D1B204 /* 攻略 */ = {
+			isa = PBXGroup;
+			children = (
+				98CFAA3D1E8EAA7D00D1B204 /* Controller */,
+				98CFAA3E1E8EAA7D00D1B204 /* Model */,
+				98CFAA3F1E8EAA7D00D1B204 /* View */,
+			);
+			path = "攻略";
+			sourceTree = "<group>";
+		};
+		98CFAA3D1E8EAA7D00D1B204 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				98E9A6591E9514240066E15B /* HeroStrategyViewController.h */,
+				98E9A65A1E9514240066E15B /* HeroStrategyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		98CFAA3E1E8EAA7D00D1B204 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		98CFAA3F1E8EAA7D00D1B204 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		98CFAA401E8EAA7D00D1B204 /* 更多 */ = {
+			isa = PBXGroup;
+			children = (
+				98CFAA411E8EAA7D00D1B204 /* Controller */,
+				98CFAA421E8EAA7D00D1B204 /* Model */,
+				98CFAA431E8EAA7D00D1B204 /* View */,
+			);
+			path = "更多";
+			sourceTree = "<group>";
+		};
+		98CFAA411E8EAA7D00D1B204 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		98CFAA421E8EAA7D00D1B204 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		98CFAA431E8EAA7D00D1B204 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		98CFAA441E8EAA7D00D1B204 /* 装备 */ = {
+			isa = PBXGroup;
+			children = (
+				98CFAA451E8EAA7D00D1B204 /* Controller */,
+				98CFAA461E8EAA7D00D1B204 /* Model */,
+				98CFAA471E8EAA7D00D1B204 /* View */,
+			);
+			path = "装备";
+			sourceTree = "<group>";
+		};
+		98CFAA451E8EAA7D00D1B204 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		98CFAA461E8EAA7D00D1B204 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		98CFAA471E8EAA7D00D1B204 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		98CFAA491E8EAAFC00D1B204 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				98CFAA4A1E8EAAFC00D1B204 /* JCConst.h */,
+				98CFAA4B1E8EAAFC00D1B204 /* JCConst.m */,
+				98CFAA4C1E8EAAFC00D1B204 /* NSDate+JCDateExtension.h */,
+				98CFAA4D1E8EAAFC00D1B204 /* NSDate+JCDateExtension.m */,
+				98CFAA4E1E8EAAFC00D1B204 /* UIBarButtonItem+JCExtension.h */,
+				98CFAA4F1E8EAAFC00D1B204 /* UIBarButtonItem+JCExtension.m */,
+				98CFAA501E8EAAFC00D1B204 /* UIImage+JCExtension.h */,
+				98CFAA511E8EAAFC00D1B204 /* UIImage+JCExtension.m */,
+				98CFAA521E8EAAFC00D1B204 /* UIImageView+JCExtension.h */,
+				98CFAA531E8EAAFC00D1B204 /* UIImageView+JCExtension.m */,
+				98CFAA541E8EAAFC00D1B204 /* UIView+JCExtension.h */,
+				98CFAA551E8EAAFC00D1B204 /* UIView+JCExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		98CFAA561E8EAAFC00D1B204 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				98CFAA571E8EAAFC00D1B204 /* JCNavigationController.h */,
+				98CFAA581E8EAAFC00D1B204 /* JCNavigationController.m */,
+				98CFAA591E8EAAFC00D1B204 /* JCTabBarController.h */,
+				98CFAA5A1E8EAAFC00D1B204 /* JCTabBarController.m */,
+				98CFAA5B1E8EAAFC00D1B204 /* ViewController.h */,
+				98CFAA5C1E8EAAFC00D1B204 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D1EC665C5D59F78B244F4FFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCD77E5E6F4FA388F94AEA33 /* Pods-TheKingOfHero.debug.xcconfig */,
+				0114CF408297BC19F344B534 /* Pods-TheKingOfHero.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98CFA9FD1E8EA8D800D1B204 /* TheKingOfHero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98CFAA2B1E8EA8D800D1B204 /* Build configuration list for PBXNativeTarget "TheKingOfHero" */;
+			buildPhases = (
+				F9DDA3C01117F2FE293D3133 /* [CP] Check Pods Manifest.lock */,
+				98CFA9FA1E8EA8D800D1B204 /* Sources */,
+				98CFA9FB1E8EA8D800D1B204 /* Frameworks */,
+				98CFA9FC1E8EA8D800D1B204 /* Resources */,
+				86AE4E7FB5407AB1CBE63DE8 /* [CP] Embed Pods Frameworks */,
+				1DF1A3801E72DECC55829644 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheKingOfHero;
+			productName = TheKingOfHero;
+			productReference = 98CFA9FE1E8EA8D800D1B204 /* TheKingOfHero.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98CFAA161E8EA8D800D1B204 /* TheKingOfHeroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98CFAA2E1E8EA8D800D1B204 /* Build configuration list for PBXNativeTarget "TheKingOfHeroTests" */;
+			buildPhases = (
+				98CFAA131E8EA8D800D1B204 /* Sources */,
+				98CFAA141E8EA8D800D1B204 /* Frameworks */,
+				98CFAA151E8EA8D800D1B204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98CFAA191E8EA8D800D1B204 /* PBXTargetDependency */,
+			);
+			name = TheKingOfHeroTests;
+			productName = TheKingOfHeroTests;
+			productReference = 98CFAA171E8EA8D800D1B204 /* TheKingOfHeroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98CFAA211E8EA8D800D1B204 /* TheKingOfHeroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98CFAA311E8EA8D800D1B204 /* Build configuration list for PBXNativeTarget "TheKingOfHeroUITests" */;
+			buildPhases = (
+				98CFAA1E1E8EA8D800D1B204 /* Sources */,
+				98CFAA1F1E8EA8D800D1B204 /* Frameworks */,
+				98CFAA201E8EA8D800D1B204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98CFAA241E8EA8D800D1B204 /* PBXTargetDependency */,
+			);
+			name = TheKingOfHeroUITests;
+			productName = TheKingOfHeroUITests;
+			productReference = 98CFAA221E8EA8D800D1B204 /* TheKingOfHeroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98CFA9F61E8EA8D800D1B204 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Hero;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = jamesczy;
+				TargetAttributes = {
+					98CFA9FD1E8EA8D800D1B204 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 42Q2G8537Q;
+						ProvisioningStyle = Automatic;
+					};
+					98CFAA161E8EA8D800D1B204 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 98CFA9FD1E8EA8D800D1B204;
+					};
+					98CFAA211E8EA8D800D1B204 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 98CFA9FD1E8EA8D800D1B204;
+					};
+				};
+			};
+			buildConfigurationList = 98CFA9F91E8EA8D800D1B204 /* Build configuration list for PBXProject "TheKingOfHero" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98CFA9F51E8EA8D800D1B204;
+			productRefGroup = 98CFA9FF1E8EA8D800D1B204 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98CFA9FD1E8EA8D800D1B204 /* TheKingOfHero */,
+				98CFAA161E8EA8D800D1B204 /* TheKingOfHeroTests */,
+				98CFAA211E8EA8D800D1B204 /* TheKingOfHeroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98CFA9FC1E8EA8D800D1B204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CFAA111E8EA8D800D1B204 /* LaunchScreen.storyboard in Resources */,
+				98CFAA0E1E8EA8D800D1B204 /* Assets.xcassets in Resources */,
+				98CFAA0C1E8EA8D800D1B204 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CFAA151E8EA8D800D1B204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CFAA201E8EA8D800D1B204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DF1A3801E72DECC55829644 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheKingOfHero/Pods-TheKingOfHero-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86AE4E7FB5407AB1CBE63DE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheKingOfHero/Pods-TheKingOfHero-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9DDA3C01117F2FE293D3133 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98CFA9FA1E8EA8D800D1B204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CFAA621E8EAAFC00D1B204 /* UIView+JCExtension.m in Sources */,
+				98CFAA5D1E8EAAFC00D1B204 /* JCConst.m in Sources */,
+				98CFAA481E8EAA7D00D1B204 /* AppDelegate.m in Sources */,
+				98CFAA5E1E8EAAFC00D1B204 /* NSDate+JCDateExtension.m in Sources */,
+				98CFAA601E8EAAFC00D1B204 /* UIImage+JCExtension.m in Sources */,
+				98CFAA651E8EAAFC00D1B204 /* ViewController.m in Sources */,
+				98CFAA611E8EAAFC00D1B204 /* UIImageView+JCExtension.m in Sources */,
+				98CFAA031E8EA8D800D1B204 /* main.m in Sources */,
+				98CFAA631E8EAAFC00D1B204 /* JCNavigationController.m in Sources */,
+				98CFAA5F1E8EAAFC00D1B204 /* UIBarButtonItem+JCExtension.m in Sources */,
+				98CFAA641E8EAAFC00D1B204 /* JCTabBarController.m in Sources */,
+				98E9A65B1E9514240066E15B /* HeroStrategyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CFAA131E8EA8D800D1B204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CFAA1C1E8EA8D800D1B204 /* TheKingOfHeroTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CFAA1E1E8EA8D800D1B204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CFAA271E8EA8D800D1B204 /* TheKingOfHeroUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98CFAA191E8EA8D800D1B204 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98CFA9FD1E8EA8D800D1B204 /* TheKingOfHero */;
+			targetProxy = 98CFAA181E8EA8D800D1B204 /* PBXContainerItemProxy */;
+		};
+		98CFAA241E8EA8D800D1B204 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98CFA9FD1E8EA8D800D1B204 /* TheKingOfHero */;
+			targetProxy = 98CFAA231E8EA8D800D1B204 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98CFAA0A1E8EA8D800D1B204 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98CFAA0B1E8EA8D800D1B204 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98CFAA0F1E8EA8D800D1B204 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98CFAA101E8EA8D800D1B204 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98CFAA291E8EA8D800D1B204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		98CFAA2A1E8EA8D800D1B204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98CFAA2C1E8EA8D800D1B204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCD77E5E6F4FA388F94AEA33 /* Pods-TheKingOfHero.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 42Q2G8537Q;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TheKingOfHero/Classes/其它/PrefixHeader.pch";
+				INFOPLIST_FILE = TheKingOfHero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JC.TheKingOfHero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		98CFAA2D1E8EA8D800D1B204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0114CF408297BC19F344B534 /* Pods-TheKingOfHero.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 42Q2G8537Q;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TheKingOfHero/Classes/其它/PrefixHeader.pch";
+				INFOPLIST_FILE = TheKingOfHero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JC.TheKingOfHero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		98CFAA2F1E8EA8D800D1B204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TheKingOfHeroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JC.TheKingOfHeroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheKingOfHero.app/TheKingOfHero";
+			};
+			name = Debug;
+		};
+		98CFAA301E8EA8D800D1B204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TheKingOfHeroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JC.TheKingOfHeroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheKingOfHero.app/TheKingOfHero";
+			};
+			name = Release;
+		};
+		98CFAA321E8EA8D800D1B204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TheKingOfHeroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JC.TheKingOfHeroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TheKingOfHero;
+			};
+			name = Debug;
+		};
+		98CFAA331E8EA8D800D1B204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TheKingOfHeroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JC.TheKingOfHeroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TheKingOfHero;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98CFA9F91E8EA8D800D1B204 /* Build configuration list for PBXProject "TheKingOfHero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CFAA291E8EA8D800D1B204 /* Debug */,
+				98CFAA2A1E8EA8D800D1B204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98CFAA2B1E8EA8D800D1B204 /* Build configuration list for PBXNativeTarget "TheKingOfHero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CFAA2C1E8EA8D800D1B204 /* Debug */,
+				98CFAA2D1E8EA8D800D1B204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98CFAA2E1E8EA8D800D1B204 /* Build configuration list for PBXNativeTarget "TheKingOfHeroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CFAA2F1E8EA8D800D1B204 /* Debug */,
+				98CFAA301E8EA8D800D1B204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98CFAA311E8EA8D800D1B204 /* Build configuration list for PBXNativeTarget "TheKingOfHeroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CFAA321E8EA8D800D1B204 /* Debug */,
+				98CFAA331E8EA8D800D1B204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98CFA9F61E8EA8D800D1B204 /* Project object */;
+}

@@ -1,0 +1,39 @@
+//
+//  PrefixHeader.pch
+//  TheKingOfHero
+//
+//  Created by jamesczy on 2017/3/31.
+//  Copyright © 2017年 jamesczy. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIBarButtonItem+JCExtension.h"
+#import "JCConst.h"
+#import "UIView+JCExtension.h"
+#import "NSDate+JCDateExtension.h"
+#import "UIImage+JCExtension.h"
+#import "UIImageView+JCExtension.h"
+
+#ifdef DEBUG
+#define JCLog(...) NSLog(__VA_ARGS__)
+#else
+#define HCLog(...)
+#endif
+
+typedef enum {
+    JCTopicTypeAll = 1,
+    JCTopicTypePictuer = 10,
+    JCTopicTypeWord = 29,
+    JCTopicTypeVoice = 31,
+    JCTopicTypeVideo = 41
+}JCTopicType;
+
+#define JCColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0];
+#define JCBackColor JCColor(223,223,223)
+#define JCTagBg JCColor(74,109,209)
+
+#define JCScreenH [UIScreen mainScreen].bounds.size.height
+#define JCScreenW [UIScreen mainScreen].bounds.size.width
+#endif /* PrefixHeader_pch */
