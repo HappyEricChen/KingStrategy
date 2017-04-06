@@ -442,7 +442,7 @@
 				TargetAttributes = {
 					98CFA9FD1E8EA8D800D1B204 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 42Q2G8537Q;
+						DevelopmentTeam = YVNM4HM6XS;
 						ProvisioningStyle = Automatic;
 					};
 					98CFAA161E8EA8D800D1B204 = {
@@ -716,7 +716,7 @@
 			baseConfigurationReference = BCD77E5E6F4FA388F94AEA33 /* Pods-TheKingOfHero.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 42Q2G8537Q;
+				DEVELOPMENT_TEAM = YVNM4HM6XS;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TheKingOfHero/Classes/其它/PrefixHeader.pch";
 				INFOPLIST_FILE = TheKingOfHero/Info.plist;
@@ -731,7 +731,7 @@
 			baseConfigurationReference = 0114CF408297BC19F344B534 /* Pods-TheKingOfHero.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 42Q2G8537Q;
+				DEVELOPMENT_TEAM = YVNM4HM6XS;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TheKingOfHero/Classes/其它/PrefixHeader.pch";
 				INFOPLIST_FILE = TheKingOfHero/Info.plist;
