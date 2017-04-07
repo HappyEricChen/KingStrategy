@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface UIImage (JCExtension)
--(UIImage *)circleImage;
+- (UIImage *)circleImage;
+
++ (UIImage *)imageWithColor:(UIColor *)color;
+
+//改变图片的透明度
++(UIImage *)imageByApplyingAlpha:(CGFloat)alpha  image:(UIImage*)image;
+
 @end

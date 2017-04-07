@@ -25,6 +25,11 @@
 		98CFAA641E8EAAFC00D1B204 /* JCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CFAA5A1E8EAAFC00D1B204 /* JCTabBarController.m */; };
 		98CFAA651E8EAAFC00D1B204 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CFAA5C1E8EAAFC00D1B204 /* ViewController.m */; };
 		98E9A65B1E9514240066E15B /* HeroStrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E9A65A1E9514240066E15B /* HeroStrategyViewController.m */; };
+		98E9A65F1E9728140066E15B /* HeroStrategyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E9A65E1E9728140066E15B /* HeroStrategyView.m */; };
+		98E9A6641E975BB80066E15B /* HeroNewInfomationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E9A6631E975BB80066E15B /* HeroNewInfomationViewController.m */; };
+		98E9A6691E9770420066E15B /* HeroInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E9A6671E9770420066E15B /* HeroInfoTableViewCell.m */; };
+		98E9A66A1E9770420066E15B /* HeroInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98E9A6681E9770420066E15B /* HeroInfoTableViewCell.xib */; };
+		98E9A66D1E9773220066E15B /* UIButton+MBImageUpTitleDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E9A66C1E9773220066E15B /* UIButton+MBImageUpTitleDownButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +86,15 @@
 		98CFAA661E8EABE100D1B204 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		98E9A6591E9514240066E15B /* HeroStrategyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroStrategyViewController.h; sourceTree = "<group>"; };
 		98E9A65A1E9514240066E15B /* HeroStrategyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroStrategyViewController.m; sourceTree = "<group>"; };
+		98E9A65D1E9728140066E15B /* HeroStrategyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroStrategyView.h; sourceTree = "<group>"; };
+		98E9A65E1E9728140066E15B /* HeroStrategyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroStrategyView.m; sourceTree = "<group>"; };
+		98E9A6621E975BB80066E15B /* HeroNewInfomationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroNewInfomationViewController.h; sourceTree = "<group>"; };
+		98E9A6631E975BB80066E15B /* HeroNewInfomationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroNewInfomationViewController.m; sourceTree = "<group>"; };
+		98E9A6661E9770420066E15B /* HeroInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroInfoTableViewCell.h; sourceTree = "<group>"; };
+		98E9A6671E9770420066E15B /* HeroInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroInfoTableViewCell.m; sourceTree = "<group>"; };
+		98E9A6681E9770420066E15B /* HeroInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeroInfoTableViewCell.xib; sourceTree = "<group>"; };
+		98E9A66B1E9773220066E15B /* UIButton+MBImageUpTitleDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MBImageUpTitleDownButton.h"; sourceTree = "<group>"; };
+		98E9A66C1E9773220066E15B /* UIButton+MBImageUpTitleDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MBImageUpTitleDownButton.m"; sourceTree = "<group>"; };
 		BCD77E5E6F4FA388F94AEA33 /* Pods-TheKingOfHero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheKingOfHero.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheKingOfHero/Pods-TheKingOfHero.debug.xcconfig"; sourceTree = "<group>"; };
 		FD886C1599158F6BF96AB502 /* libPods-TheKingOfHero.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TheKingOfHero.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -238,9 +252,9 @@
 		98CFAA3C1E8EAA7D00D1B204 /* 攻略 */ = {
 			isa = PBXGroup;
 			children = (
+				98E9A6601E975B980066E15B /* NewInfomation */,
 				98CFAA3D1E8EAA7D00D1B204 /* Controller */,
-				98CFAA3E1E8EAA7D00D1B204 /* Model */,
-				98CFAA3F1E8EAA7D00D1B204 /* View */,
+				98E9A65C1E9727FA0066E15B /* View */,
 			);
 			path = "攻略";
 			sourceTree = "<group>";
@@ -252,20 +266,6 @@
 				98E9A65A1E9514240066E15B /* HeroStrategyViewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		98CFAA3E1E8EAA7D00D1B204 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		98CFAA3F1E8EAA7D00D1B204 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		98CFAA401E8EAA7D00D1B204 /* 更多 */ = {
@@ -335,6 +335,8 @@
 			children = (
 				98CFAA4A1E8EAAFC00D1B204 /* JCConst.h */,
 				98CFAA4B1E8EAAFC00D1B204 /* JCConst.m */,
+				98E9A66B1E9773220066E15B /* UIButton+MBImageUpTitleDownButton.h */,
+				98E9A66C1E9773220066E15B /* UIButton+MBImageUpTitleDownButton.m */,
 				98CFAA4C1E8EAAFC00D1B204 /* NSDate+JCDateExtension.h */,
 				98CFAA4D1E8EAAFC00D1B204 /* NSDate+JCDateExtension.m */,
 				98CFAA4E1E8EAAFC00D1B204 /* UIBarButtonItem+JCExtension.h */,
@@ -360,6 +362,43 @@
 				98CFAA5C1E8EAAFC00D1B204 /* ViewController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		98E9A65C1E9727FA0066E15B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				98E9A65D1E9728140066E15B /* HeroStrategyView.h */,
+				98E9A65E1E9728140066E15B /* HeroStrategyView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		98E9A6601E975B980066E15B /* NewInfomation */ = {
+			isa = PBXGroup;
+			children = (
+				98E9A6651E9770020066E15B /* View */,
+				98E9A6611E975B980066E15B /* Controller */,
+			);
+			path = NewInfomation;
+			sourceTree = "<group>";
+		};
+		98E9A6611E975B980066E15B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				98E9A6621E975BB80066E15B /* HeroNewInfomationViewController.h */,
+				98E9A6631E975BB80066E15B /* HeroNewInfomationViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		98E9A6651E9770020066E15B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				98E9A6661E9770420066E15B /* HeroInfoTableViewCell.h */,
+				98E9A6671E9770420066E15B /* HeroInfoTableViewCell.m */,
+				98E9A6681E9770420066E15B /* HeroInfoTableViewCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		D1EC665C5D59F78B244F4FFC /* Pods */ = {
@@ -485,6 +524,7 @@
 				98CFAA111E8EA8D800D1B204 /* LaunchScreen.storyboard in Resources */,
 				98CFAA0E1E8EA8D800D1B204 /* Assets.xcassets in Resources */,
 				98CFAA0C1E8EA8D800D1B204 /* Main.storyboard in Resources */,
+				98E9A66A1E9770420066E15B /* HeroInfoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,16 +597,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98E9A66D1E9773220066E15B /* UIButton+MBImageUpTitleDownButton.m in Sources */,
 				98CFAA621E8EAAFC00D1B204 /* UIView+JCExtension.m in Sources */,
 				98CFAA5D1E8EAAFC00D1B204 /* JCConst.m in Sources */,
 				98CFAA481E8EAA7D00D1B204 /* AppDelegate.m in Sources */,
 				98CFAA5E1E8EAAFC00D1B204 /* NSDate+JCDateExtension.m in Sources */,
 				98CFAA601E8EAAFC00D1B204 /* UIImage+JCExtension.m in Sources */,
+				98E9A6641E975BB80066E15B /* HeroNewInfomationViewController.m in Sources */,
 				98CFAA651E8EAAFC00D1B204 /* ViewController.m in Sources */,
+				98E9A65F1E9728140066E15B /* HeroStrategyView.m in Sources */,
 				98CFAA611E8EAAFC00D1B204 /* UIImageView+JCExtension.m in Sources */,
 				98CFAA031E8EA8D800D1B204 /* main.m in Sources */,
 				98CFAA631E8EAAFC00D1B204 /* JCNavigationController.m in Sources */,
 				98CFAA5F1E8EAAFC00D1B204 /* UIBarButtonItem+JCExtension.m in Sources */,
+				98E9A6691E9770420066E15B /* HeroInfoTableViewCell.m in Sources */,
 				98CFAA641E8EAAFC00D1B204 /* JCTabBarController.m in Sources */,
 				98E9A65B1E9514240066E15B /* HeroStrategyViewController.m in Sources */,
 			);
