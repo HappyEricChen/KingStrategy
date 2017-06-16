@@ -10,11 +10,13 @@
 #define PrefixHeader_pch
 
 #import "UIBarButtonItem+JCExtension.h"
+#import "UIButton+MBImageUpTitleDownButton.h"
 #import "JCConst.h"
 #import "UIView+JCExtension.h"
 #import "NSDate+JCDateExtension.h"
 #import "UIImage+JCExtension.h"
 #import "UIImageView+JCExtension.h"
+#import <SDCycleScrollView.h>
 
 #ifdef DEBUG
 #define JCLog(...) NSLog(__VA_ARGS__)
@@ -33,6 +35,12 @@ typedef enum {
 #define JCColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0];
 #define JCBackColor JCColor(223,223,223)
 #define JCTagBg JCColor(74,109,209)
+
+/**
+ * 宏定义颜色，使用16进制表示
+ */
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define UIColorFromRGBWithAlpha(rgbValue,alp) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:alp]
 
 #define JCScreenH [UIScreen mainScreen].bounds.size.height
 #define JCScreenW [UIScreen mainScreen].bounds.size.width

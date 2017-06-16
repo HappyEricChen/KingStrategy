@@ -17,13 +17,14 @@
 {
     //appearance 统一设置
     UINavigationBar *bar = [UINavigationBar appearance];
-    [bar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
-    [bar setTitleTextAttributes:@{NSFontAttributeName:[UIFont boldSystemFontOfSize:20]}];
+    [bar setBackgroundImage:[UIImage imageWithColor:UIColorFromRGB(0x0e1927)] forBarMetrics:UIBarMetricsDefault];
+    [bar setTitleTextAttributes:@{NSFontAttributeName:[UIFont boldSystemFontOfSize:20],
+                                  NSForegroundColorAttributeName:[UIColor whiteColor]}];
     
     UIBarButtonItem *item = [UIBarButtonItem appearance];
     NSMutableDictionary *itemAttries =  [NSMutableDictionary dictionary];
     itemAttries[NSFontAttributeName] = [UIFont systemFontOfSize:17];
-    itemAttries[NSForegroundColorAttributeName] = [UIColor blackColor];
+    itemAttries[NSForegroundColorAttributeName] = [UIColor whiteColor];
     NSMutableDictionary *itemDisabledAttries = [NSMutableDictionary dictionary];
     itemDisabledAttries[NSForegroundColorAttributeName] = [UIColor lightGrayColor];
     
@@ -62,5 +63,11 @@
 -(void)back
 {
     [self popViewControllerAnimated:YES];
+}
+
+//设置状态栏为白色
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
 }
 @end

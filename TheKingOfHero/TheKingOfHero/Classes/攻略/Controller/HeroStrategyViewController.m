@@ -7,6 +7,7 @@
 //  攻略控制器
 
 #import "HeroStrategyViewController.h"
+#import "HeroNewInfomationViewController.h"
 
 @interface HeroStrategyViewController ()<UIScrollViewDelegate>
 /** 标签栏底部的红色指示器 */
@@ -17,6 +18,8 @@
 @property (nonatomic,weak) UIButton * selectedBtn;
 /** 底部所有的内容 */
 @property (nonatomic,weak) UIScrollView * contentView;
+
+
 @end
 
 @implementation HeroStrategyViewController
@@ -25,6 +28,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    self.extendedLayoutIncludesOpaqueBars = NO;
+//    self.edgesForExtendedLayout = UIRectEdgeNone;
     [self setUpNav];
     
     [self setUpChildVc];
@@ -41,14 +46,12 @@
 }
 - (void)setUpChildVc
 {
-    UIViewController *all = [[UIViewController alloc]init];
-    all.title = @"最新资讯";
-    [self addChildViewController:all];
-    
+    HeroNewInfomationViewController *newInfoVC = [[HeroNewInfomationViewController alloc]init];
+    newInfoVC.title = @"最新资讯";
+    [self addChildViewController:newInfoVC];
     UIViewController *video = [[UIViewController alloc]init];
     video.title = @"攻略秘籍";
     [self addChildViewController:video];
-    
     UIViewController *voice = [[UIViewController alloc]init];
 
     voice.title = @"英雄出装";
@@ -83,7 +86,7 @@
     titelView.height = 35;
     titelView.width = self.view.width;
     titelView.x = 0;
-    titelView.y = 64;
+    titelView.y = 0;
     titelView.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:titelView];
     self.titelView = titelView;
